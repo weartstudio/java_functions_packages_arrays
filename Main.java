@@ -69,6 +69,11 @@ public class Main{
       int[] b12 = {5,6,7,8};
       System.out.println("12. scalar(int[3] a, int[3] b) = " + ScalarMultiplication.scalar(a12,b12) +" // exp. 70");
 
+    // 13. XorCipher.java
+      char[] a13 = { 'a', 'b', 'c', 'd', 'a', 'g', 'e', 'a' };
+      System.out.println("13.1 cipher(char[] a) = " + XorCipher.cipher(a13) +" // exp. '^bcd^ge^'");
+      System.out.println("13.2 decipher(char[] a) = " + XorCipher.decipher(a13) +" // exp. 'abcdagea'");
+
 
 
   }
