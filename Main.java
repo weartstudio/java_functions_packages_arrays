@@ -99,5 +99,11 @@ public class Main{
     // 19. Capitalize.java
       System.out.println("19. capitalize(String[] from console) = "+ Capitalize.capitalize(args) +" // exp. Capitalize 1st letter");
 
+    // 20. CharacterChanger.java
+      System.out.println("20. change(String) = "+ CharacterChanger.change("Adria 2020!!") +" // exp. 'Adria 2020!!' => 'adria_2020__'");
+
+    // 21. StringStartsWith.java
+      System.out.println("20. startsWith(String,String) = "+ StringStartsWith.startsWith("Buda","BudaPest") +" // exp. true ");
+
   }
 }
