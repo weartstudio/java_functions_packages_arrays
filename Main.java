@@ -25,19 +25,19 @@ public class Main{
       System.out.println( "6. max(8, 9) = " + Max.max(8, 9) + " // exp. 9" );
       
     // 7. FindMax.java
-      longString = "7. findMax(new int[]{2, 4, 9, 7, 34, 64, 5}) = ";
+      longString = "7. findMax(new int[]) = ";
       longString += FindMax.findMax(new int[]{2, 4, 9, 7, 34, 64, 5});
       longString += " // exp. 64";
       System.out.println( longString );
       
     // 8. ArraySort.java
-      longString = "8. sort(new int[]{2, 4, 9, 7, 34, 64, 5}) = ";
+      longString = "8. sort(new int[]) = ";
       longString += ArraySort.sort(new int[]{2, 4, 9, 7, 34, 64, 5});
       longString += " // exp. 2, 4, 5, 7, 8, 9, 34, 64";
       System.out.println( longString );
 
     // 9. ArrayMerge.java
-      longString = "9. merge(a,b) when (a,b => int[]) = ";
+      longString = "9. merge(int[],int[]) = ";
       int[] a9 = {2, 4, 9};
       int[] b9 = {3, 5, 6};
       int[] merge = ArrayMerge.merge(a9,b9);
@@ -67,12 +67,20 @@ public class Main{
     // 12. ScalarMultiplication.java
       int[] a12 = {1,2,3,4};
       int[] b12 = {5,6,7,8};
-      System.out.println("12. scalar(int[3] a, int[3] b) = " + ScalarMultiplication.scalar(a12,b12) +" // exp. 70");
+      System.out.println("12. scalar(int[3], int[3]) = " + ScalarMultiplication.scalar(a12,b12) +" // exp. 70");
 
     // 13. XorCipher.java
       char[] a13 = { 'a', 'b', 'c', 'd', 'a', 'g', 'e', 'a' };
-      System.out.println("13.1 cipher(char[] a) = " + XorCipher.cipher(a13) +" // exp. '^bcd^ge^'");
-      System.out.println("13.2 decipher(char[] a) = " + XorCipher.decipher(a13) +" // exp. 'abcdagea'");
+      System.out.println("13.1 cipher(char[]) = " + XorCipher.cipher(a13) +" // exp. '^bcd^ge^'");
+      System.out.println("13.2 decipher(char[]) = " + XorCipher.decipher(a13) +" // exp. 'abcdagea'");
+
+    // 14. LongestMonotonic.java
+      int[] a14 = new int[]{1,2,9,4,7,3,11,8,14,6};
+      a14 = LongestMonotonic.longestMonotonic(a14);
+      longString = ""; // make it empty
+      for (int i : a14) { if(i!=0) longString += i +", "; } //make a humanString
+      System.out.println("14 longestMonotonic(int[]) = " + longString +" // exp. '1, 2, 9, 11'");
+
 
 
 
