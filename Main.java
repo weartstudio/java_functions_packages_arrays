@@ -17,6 +17,9 @@ public class Main{
       
     // 5. Collatz.java
       System.out.println( "5. collatz(8) = " + Collatz.collatz(8) + " // exp. 8, 4, 2, 1 " );
+      
+    // 6. Max.java
+      System.out.println( "5. max(8, 9) = " + Max.max(8, 9) + " // exp. 9 " );
 
   }
 }
