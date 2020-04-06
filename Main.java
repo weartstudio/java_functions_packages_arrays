@@ -2,6 +2,8 @@ import elte.fsz.java.*;
 public class Main{
   // Entry point
   public static void main(String[] args) {
+    // readability assistant variables => long Strings
+      String longString = "";
 		
     // 1. Factorial.java
       System.out.println( "1. factorial(5) = " + Factorial.factorial(5) + " // exp. 120" );
@@ -22,10 +24,16 @@ public class Main{
       System.out.println( "6. max(8, 9) = " + Max.max(8, 9) + " // exp. 9" );
       
     // 7. FindMax.java
-      System.out.println( "7. findMax(new int[]{2, 4, 9, 7, 34, 64, 5}) = " + FindMax.findMax(new int[]{2, 4, 9, 7, 34, 64, 5}) + " // exp. 64" );
+      longString = "7. findMax(new int[]{2, 4, 9, 7, 34, 64, 5}) = ";
+      longString += FindMax.findMax(new int[]{2, 4, 9, 7, 34, 64, 5});
+      longString += " // exp. 64";
+      System.out.println( longString );
       
     // 8. ArraySort.java
-      System.out.println( "8. sort(new int[]{2, 4, 9, 7, 34, 64, 5}) = " + ArraySort.sort(new int[]{2, 4, 9, 7, 34, 64, 5}) + " // exp. 2, 4, 5, 7, 8, 9, 34, 64" );
+      longString = "8. sort(new int[]{2, 4, 9, 7, 34, 64, 5}) = ";
+      longString += ArraySort.sort(new int[]{2, 4, 9, 7, 34, 64, 5});
+      longString += " // exp. 2, 4, 5, 7, 8, 9, 34, 64";
+      System.out.println( longString );
 
   }
 }
