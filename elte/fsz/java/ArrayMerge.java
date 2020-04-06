@@ -7,11 +7,12 @@ public class ArrayMerge {
     int[] result = new int[(a.length+b.length)];
 
     for (int i = 0; i < a.length; i++) {
+      // fill result \w 1st arr. content
       result[i] = a[i];
     }
 
     for (int i = 0; i < b.length; i++) {
-      // index start from the last item & increment by pos. of 2nd
+      // index start from last item & increment by pos. of 2nd
       result[(a.length+i)] = b[i];
     }
 
