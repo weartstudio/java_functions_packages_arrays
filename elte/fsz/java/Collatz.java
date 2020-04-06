@@ -3,4 +3,28 @@ package elte.fsz.java;
 
 public class Collatz {
 
+  public static String collatz(int n) {
+    String result = "";
+
+    while(n > 1){
+      // add the number to sequence
+      result += n +", "; 
+      
+      if(n % 2 == 0 ){
+        // if even
+        n /= 2;
+      }else{
+        // if odd
+        n = (n * 3) + 1;
+      }
+      
+    }
+
+    // add 1 to the end of sequence
+    result += 1;     
+
+    // return result
+    return result;
+  }
+
 }

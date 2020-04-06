@@ -14,6 +14,9 @@ public class Main{
       
     // 4. FibonacciRec.java
       System.out.println( "4. fibonacci(8) = " + FibonacciRec.fibonacci(8) + " // exp. 21, recursive " );
+      
+    // 5. Collatz.java
+      System.out.println( "5. collatz(8) = " + Collatz.collatz(8) + " // exp. 8, 4, 2, 1 " );
 
   }
 }
