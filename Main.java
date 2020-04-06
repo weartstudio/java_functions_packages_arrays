@@ -87,6 +87,9 @@ public class Main{
       System.out.println("15.1 sum(int[[][][]]) = "+ MatrixSum.sum(a15) +"// exp. 3,6,9 ; 3,6,9 ; 6");
       System.out.println("15.2 sum(int[[][][]]) = "+ MatrixSum.sum(b15) +"// exp. -1,2,-5 ; 3,-4,-3 ; -6");
 
+    // 16. Validator.java
+      System.out.println("15.1 validate(String), Password is valid? 'Password1!' = "+Validator.validate("Password1!") +" // false 'cause '!'");
+
 
 
   }
