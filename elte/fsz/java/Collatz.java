@@ -8,7 +8,7 @@ public class Collatz {
 
     while(n > 1){
       // add the number to sequence
-      result += n +", "; 
+        result += n +", "; 
       
       if(n % 2 == 0 ){
         // if even
@@ -21,10 +21,10 @@ public class Collatz {
     }
 
     // add 1 to the end of sequence
-    result += 1;     
+      result += 1;     
 
     // return result
-    return result;
+      return result;
   }
 
 }
