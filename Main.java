@@ -38,9 +38,9 @@ public class Main{
 
     // 9. ArrayMerge.java
       longString = "9. merge(a,b) when (a,b => int[]) = ";
-      int[] a = {2, 4, 9};
-      int[] b = {3, 5, 6};
-      int[] merge = ArrayMerge.merge(a,b);
+      int[] a9 = {2, 4, 9};
+      int[] b9 = {3, 5, 6};
+      int[] merge = ArrayMerge.merge(a9,b9);
       for (int i : merge) { longString += i +", "; }
       longString += "// exp. 2, 4, 9, 3, 5, 6";
       System.out.println(longString);
@@ -53,16 +53,21 @@ public class Main{
       longString += Concat.simpleConcat("-", "b", "c");
       longString += "// exp. 'b-c'";
       System.out.println(longString);
-      
+
       longString = "11.2 stringBuilderConcat('-','b','c') = ";
       longString += Concat.simpleConcat("-", "b", "c");
       longString += "// exp. 'b-c'";
       System.out.println(longString);
-      
+
       longString = "11.3 simpleConcat('-','b','c') = ";
       longString += Concat.varargsConcat("-", "b", "c");
       longString += "// exp. '-bc'";
       System.out.println(longString);
+
+    // 12. ScalarMultiplication.java
+      int[] a12 = {1,2,3,4};
+      int[] b12 = {5,6,7,8};
+      System.out.println("12. scalar(int[3] a, int[3] b) = " + ScalarMultiplication.scalar(a12,b12) +" // exp. 70");
 
 
 
