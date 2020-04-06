@@ -4,6 +4,9 @@ public class Main{
 		
 		// 1. Factorial.java
 			System.out.println( "1. factorial(5) = " + Factorial.factorial(5) );
+		
+		// 2. FactorialRecursive.java
+			System.out.println( "2. factorial(5) = " + FactorialRecursive.factorial(5) + " // recursive " );
 
 	}
 }
