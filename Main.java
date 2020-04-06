@@ -2,6 +2,7 @@ import elte.fsz.java.*;
 public class Main{
   // Entry point
   public static void main(String[] args) {
+
     // readability assistant variables => long Strings
       String longString = "";
 		
@@ -34,6 +35,16 @@ public class Main{
       longString += ArraySort.sort(new int[]{2, 4, 9, 7, 34, 64, 5});
       longString += " // exp. 2, 4, 5, 7, 8, 9, 34, 64";
       System.out.println( longString );
+
+    // 9. ArrayMerge.java
+      longString = "9. merge(a,b) = ";
+      int[] a = {2, 4, 9};
+      int[] b = {3, 5, 6};
+      int[] merge = ArrayMerge.merge(a,b);
+      for (int i : merge) { longString += i +", "; }
+      longString += "// exp. 2, 4, 9, 3, 5, 6";
+      System.out.println(longString);
+
 
   }
 }
