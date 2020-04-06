@@ -94,7 +94,10 @@ public class Main{
       System.out.println("17.1 euclideanGCD(int,int) = "+ Euclidean.euclideanGCD(360, 225) +" // exp. 45");
       System.out.println("17.2 euclideanGCDRec(int,int) = "+ Euclidean.euclideanGCDRec(360, 225)  +" // exp. 45, recursive");
 
+    // 18.
 
+    // 19. Capitalize.java
+      System.out.println("19. capitalize(String[] from console) = "+ Capitalize.capitalize(args) +" // exp. Capitalize 1st letter");
 
   }
 }
