@@ -79,8 +79,13 @@ public class Main{
       a14 = LongestMonotonic.longestMonotonic(a14);
       longString = ""; // make it empty
       for (int i : a14) { if(i!=0) longString += i +", "; } //make a humanString
-      System.out.println("14 longestMonotonic(int[]) = " + longString +" // exp. '1, 2, 9, 11'");
+      System.out.println("14. longestMonotonic(int[]) = " + longString +" // exp. '1, 2, 9, 11'");
 
+    // 15. MatrixSum.java
+      int[][] a15 = {{0,1,2},{1,2,3},{2,3,4}};
+      int[][] b15 = {{0,1,-2},{1,-2,3},{2,-3,-4}};
+      System.out.println("15.1 sum(int[[][][]]) = "+ MatrixSum.sum(a15) +"// exp. 3,6,9 ; 3,6,9 ; 6");
+      System.out.println("15.2 sum(int[[][][]]) = "+ MatrixSum.sum(b15) +"// exp. -1,2,-5 ; 3,-4,-3 ; -6");
 
 
 
