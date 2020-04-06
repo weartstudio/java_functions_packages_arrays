@@ -20,6 +20,9 @@ public class Main{
       
     // 6. Max.java
       System.out.println( "5. max(8, 9) = " + Max.max(8, 9) + " // exp. 9 " );
+      
+    // 6. FindMax.java
+      System.out.println( "6. max(new int[]{2, 4, 9, 7, 34, 64, 5}) = " + FindMax.findMax(new int[]{2, 4, 9, 7, 34, 64, 5}) + " // exp. 64 " );
 
   }
 }
