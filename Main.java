@@ -88,7 +88,11 @@ public class Main{
       System.out.println("15.2 sum(int[[][][]]) = "+ MatrixSum.sum(b15) +"// exp. -1,2,-5 ; 3,-4,-3 ; -6");
 
     // 16. Validator.java
-      System.out.println("15.1 validate(String), Password is valid? 'Password1!' = "+Validator.validate("Password1!") +" // false 'cause '!'");
+      System.out.println("16. validate(String), Password is valid? 'Password1!' = "+Validator.validate("Password1!") +" // false 'cause '!'");
+
+    // 17. Euclidean.java
+      System.out.println("17.1 euclideanGCD(int,int) = "+ Euclidean.euclideanGCD(360, 225) +" // exp. 45");
+      System.out.println("17.2 euclideanGCDRec(int,int) = "+ Euclidean.euclideanGCDRec(360, 225)  +" // exp. 45, recursive");
 
 
 
