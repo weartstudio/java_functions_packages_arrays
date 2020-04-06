@@ -23,6 +23,9 @@ public class Main{
       
     // 7. FindMax.java
       System.out.println( "7. findMax(new int[]{2, 4, 9, 7, 34, 64, 5}) = " + FindMax.findMax(new int[]{2, 4, 9, 7, 34, 64, 5}) + " // exp. 64" );
+      
+    // 8. ArraySort.java
+      System.out.println( "8. sort(new int[]{2, 4, 9, 7, 34, 64, 5}) = " + ArraySort.sort(new int[]{2, 4, 9, 7, 34, 64, 5}) + " // exp. 2, 4, 5, 7, 8, 9, 34, 64" );
 
   }
 }
