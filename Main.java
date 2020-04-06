@@ -37,13 +37,16 @@ public class Main{
       System.out.println( longString );
 
     // 9. ArrayMerge.java
-      longString = "9. merge(a,b) = ";
+      longString = "9. merge(a,b) when (a,b => int[]) = ";
       int[] a = {2, 4, 9};
       int[] b = {3, 5, 6};
       int[] merge = ArrayMerge.merge(a,b);
       for (int i : merge) { longString += i +", "; }
       longString += "// exp. 2, 4, 9, 3, 5, 6";
       System.out.println(longString);
+
+    // 10. Palindrom.java
+      System.out.println("10. isPalindrom('kerek') = " + Palindrom.isPalindrom("kerek") +" // exp. true");
 
 
   }
