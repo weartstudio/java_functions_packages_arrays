@@ -3,14 +3,14 @@ package elte.fsz.java;
 
 public class Factorial{
 
-	public static int factorial(int n){
-		int result = 1;
+  public static int factorial(int n){
+    int result = 1;
 
-		for (int i = 1; i <=n; i++) {
-			result = result * i;
-		}
+    for (int i = 1; i <=n; i++) {
+      result = result * i;
+    }
 
-		return result;
-	}
+    return result;
+  }
 
 }
