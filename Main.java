@@ -1,5 +1,6 @@
 import elte.fsz.java.*;
 public class Main{
+  // Entry point
   public static void main(String[] args) {
 		
     // 1. Factorial.java
