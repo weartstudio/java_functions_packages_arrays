@@ -48,6 +48,23 @@ public class Main{
     // 10. Palindrom.java
       System.out.println("10. isPalindrom('kerek') = " + Palindrom.isPalindrom("kerek") +" // exp. true");
 
+    // 11. Concat.java
+      longString = "11.1 simpleConcat('-','b','c') = ";
+      longString += Concat.simpleConcat("-", "b", "c");
+      longString += "// exp. 'b-c'";
+      System.out.println(longString);
+      
+      longString = "11.2 stringBuilderConcat('-','b','c') = ";
+      longString += Concat.simpleConcat("-", "b", "c");
+      longString += "// exp. 'b-c'";
+      System.out.println(longString);
+      
+      longString = "11.3 simpleConcat('-','b','c') = ";
+      longString += Concat.varargsConcat("-", "b", "c");
+      longString += "// exp. '-bc'";
+      System.out.println(longString);
+
+
 
   }
 }
