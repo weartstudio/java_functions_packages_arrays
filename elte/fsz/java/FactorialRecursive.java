@@ -3,12 +3,12 @@ package elte.fsz.java;
 
 public class FactorialRecursive {
 
-	public static int factorial(int n) {
-		if (n == 0){
+  public static int factorial(int n) {
+    if (n == 0){
       return 1;
     }else{ 
       return(n * factorial(n-1));
-    }
-	}
+    } 
+  }
 
 }
