@@ -3,7 +3,7 @@ package elte.fsz.java;
 
 public class Max {
 
-  public static int max(int n, int m) {
+  public static int max(int n, int m){
     return (n > m) ? n: m;
   }
 
