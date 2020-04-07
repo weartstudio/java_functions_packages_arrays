@@ -108,7 +108,7 @@ public class Main{
       System.out.println("20. change(String) = "+ CharacterChanger.change("Adria 2020!!") +" // exp. 'Adria 2020!!' => 'adria_2020__'");
 
     // 21. StringStartsWith.java
-      System.out.println("20. startsWith(String,String) = "+ StringStartsWith.startsWith("Buda","BudaPest") +" // exp. true ");
+      System.out.println("21. startsWith(String,String) = "+ StringStartsWith.startsWith("Buda","BudaPest") +" // exp. true ");
 
   }
 }
